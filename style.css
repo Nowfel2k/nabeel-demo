@@ -1,0 +1,31 @@
+* {
+    text-align: center;
+}
+
+/* Responsive Design  */
+/* Displays: Flexbox, Grid  */
+/* Frameworks: Bootstrap, Materialize, Tailwind CSS */
+/* Icons: Font Awesome */
+
+h1 {
+    font-size: 40px;
+    border: 2px solid blue;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container > div {
+    border: 1px solid red;
+    margin: 10px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    h1 {
+        border: none;
+    }
+}
+
